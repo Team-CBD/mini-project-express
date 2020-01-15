@@ -1,10 +1,11 @@
 {
-  "name": "starwars-express",
+  "name": "restaurant-reservations",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "path": "*"
   },
   "devDependencies": {},
   "scripts": {
