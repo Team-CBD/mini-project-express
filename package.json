@@ -4,8 +4,11 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "bootstrap": "*",
     "express": "^4.16.3",
-    "path": "*"
+    "jquery": "^3.4.1",
+    "path": "*",
+    "popper.js": "^1.16.0"
   },
   "devDependencies": {},
   "scripts": {
