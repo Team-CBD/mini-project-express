@@ -25,7 +25,7 @@ app.get("/tables", function(req, res) {
   res.sendFile(path.join(__dirname, "tables.html"));
 });
 
-// Displays all characters
+// Displays all tables
 app.get("/api/tables", function(req, res) {
   return res.json(table);
 });
@@ -34,7 +34,7 @@ app.get("/reserve", function(req, res) {
   res.sendFile(path.join(__dirname, "reserve.html"));
 });
 
-// Displays a single character, or returns false
+// Displays a single table, or returns false
 app.get("/api/tables/:table", function(req, res) {
   var chosen = req.params.table;
 
@@ -49,7 +49,7 @@ app.get("/api/tables/:table", function(req, res) {
   return res.json(false);
 });
 
-// Create New Characters - takes in JSON input
+// Create New table - takes in JSON input
 app.post("/api/tables", function(req, res) {
   //<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
   
