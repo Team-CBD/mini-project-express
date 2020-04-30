@@ -6,7 +6,7 @@
   "dependencies": {
     "bootstrap": "*",
     "express": "^4.16.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "path": "*",
     "popper.js": "^1.16.0"
   },
